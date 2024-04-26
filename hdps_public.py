@@ -29,18 +29,18 @@ if selected == 'Heart Disease Prediction':
     col1, col2, col3 = st.columns(3)
     with col1:
         age = st.text_input('Age')
-        trestbps = st.text_input('Resting Blood Pressure')
-        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
-        restecg = st.text_input('Resting Electrocardiographic results')
-        oldpeak = st.text_input('ST depression induced by exercise')
-        ca = st.text_input('Major vessels colored by flourosopy')
+        trestbps = st.text_input('trestbps')
+        fbs = st.text_input('fbs > 120 mg/dl')
+        restecg = st.text_input(' restecg')
+        oldpeak = st.text_input('oldpeak')
+        ca = st.text_input('ca')
 
     with col2:
         sex = st.text_input('Sex')
-        chol = st.text_input('Serum Cholestoral in mg/dl')
-        thalach = st.text_input('Maximum Heart Rate achieved')
-        exang = st.text_input('Exercise Induced Angina')
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        chol = st.text_input('Chol in mg/dl')
+        thalach = st.text_input('thalach')
+        exang = st.text_input('exang')
+        slope = st.text_input('lope')
 
     with col3:
         cp = st.text_input('Chest Pain types')
