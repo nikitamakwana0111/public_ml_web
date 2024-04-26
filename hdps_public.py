@@ -5,9 +5,7 @@ Created on Fri Apr 26 19:28:35 2024
 @author: BHUMI
 """
 
-Certainly! Here's the modified code with the necessary changes to ensure that the input values are converted to numeric types before being used for prediction:
 
-```python
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
