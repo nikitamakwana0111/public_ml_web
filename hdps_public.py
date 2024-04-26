@@ -78,6 +78,3 @@ if selected == 'Heart Disease Prediction':
             heart_diagnosis = 'The person does not have any heart disease'
 
     st.success(heart_diagnosis)
-```
-
-This code includes the conversion of input values to numeric types using `float()` and handles the case where non-numeric values are entered by the user.
